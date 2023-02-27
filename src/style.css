@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+/* font-family: 'Alata', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+#app {
+    font-family: 'Alata', sans-serif;
+}
+
+.jacaltenango-mountains {
+    background-color: gray;
+    background-image: url('./src/assets/img/rio_azul.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
