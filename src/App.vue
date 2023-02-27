@@ -1,5 +1,3 @@
-
-
 <template>
     <v-app id="app">
       <v-app-bar flat
@@ -27,7 +25,7 @@
       <v-main class="jacaltenango-mountains">
         <v-container>
           <v-row>
-            <v-col cols="2">
+            <!-- <v-col cols="2">
               <v-sheet rounded="lg">
                 <v-list rounded="lg">
                   <v-list-item
@@ -52,14 +50,10 @@
                   </v-list-item>
                 </v-list>
               </v-sheet>
-            </v-col>
+            </v-col> -->
   
             <v-col>
-              <v-sheet
-                min-height="70vh"
-                rounded="lg"
-              >
-              </v-sheet>
+              <WelcomeBanner />
             </v-col>
             
           </v-row>
@@ -69,7 +63,13 @@
   </template>
   
   <script>
+
+    import WelcomeBanner from './components/UnderConstructionBanner.vue'
+
     export default {
+      components: {
+        WelcomeBanner
+      },
       data: () => ({
         links: [
           'Dictionary',
